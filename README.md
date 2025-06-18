@@ -1,6 +1,6 @@
 💼 AI Resume Ranker – Elevate Labs AIML Internship Project(2025)
 
-This is the official internship project submitted by **Mohammad Rizwan** as part of the **AIML Internship Program** at **Elevate Labs**.
+This is my official internship project of the "AIML Internship Program" at "Elevate Labs".
 
 This tool intelligently ranks resumes based on their similarity to a job description using natural language processing techniques.
 
@@ -41,8 +41,8 @@ AI_RESUME_RANKER/
 1. The user pastes a job description
 2. Uploads one or more PDF resumes
 3. The system:
-   - Extracts text from each resume using `pdfplumber`
-   - Vectorizes the text using `TfidfVectorizer`
+   - Extracts text from each resume using 'pdfplumber'
+   - Vectorizes the text using 'TfidfVectorizer'
    - Compares with JD using cosine similarity
 4. Shows a table of resumes ranked by match percentage
 
